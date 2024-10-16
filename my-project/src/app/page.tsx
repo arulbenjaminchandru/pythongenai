@@ -2,6 +2,14 @@
 import React, { useState } from 'react';
 import { Linkedin, ChevronDown, ChevronUp, ExternalLink,PlayCircle } from 'lucide-react';
 
+interface SyllabusSectionProps {
+  title: string;
+  topics: string[];
+}
+interface DemoVideoProps {
+  title: string;
+  videoId: string;
+}
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 text-gray-800 font-sans">
@@ -149,7 +157,7 @@ const LandingPage = () => {
   );
 };
 
-const SyllabusSection = ({ title, topics }) => {
+const SyllabusSection : React.FC<SyllabusSectionProps> = ({ title, topics }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -175,7 +183,7 @@ const SyllabusSection = ({ title, topics }) => {
   );
 };
 
-const DemoVideo = ({ title, videoId }) => {
+const DemoVideo : React.FC<DemoVideoProps> = ({ title, videoId }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
