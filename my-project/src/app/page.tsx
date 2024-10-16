@@ -30,19 +30,23 @@ const LandingPage = () => {
       </header>
 
       <main className="container mx-auto px-4 py-12">
-        <section className="mb-12 text-center">
-          <h2 className="text-3xl font-bold mb-4">About the Instructor</h2>
-          <p className="text-xl">
-            <a 
-              href="https://www.linkedin.com/in/arulbenjamin/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline flex items-center justify-center"
-            >
-              Arul Benjamin <Linkedin className="inline ml-2" size={24} />
-            </a>
-          </p>
-        </section>
+      <section className="mb-12 text-center">
+    <h2 className="text-3xl font-bold mb-4">About the Instructor - Arul Benjamin Chandru</h2>
+    <p className="text-xl text-justify mb-4">
+      As a Senior System Analyst at IBM, I bring over 11 years of rich experience in the tech industry, dedicated to delivering efficient and innovative solutions that meet the complex needs of our clients. Throughout my career, I have honed my expertise in Data Engineering, with a particular focus on leveraging the capabilities of AWS, Python, Java, and Generative AI. This specialization allows me to design and implement robust, scalable data systems that not only drive business success but also enhance operational efficiencies and decision-making processes.
+    </p>
+    <p className="text-xl text-justify mb-4">
+      <a 
+        href="https://www.linkedin.com/in/arulbenjamin/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline flex items-center justify-center mt-4"
+      >
+        Connect with me on LinkedIn <Linkedin className="inline ml-2" size={24} />
+      </a>
+    </p>
+  </section>
+
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-center">Course Syllabus</h2>
