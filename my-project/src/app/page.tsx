@@ -16,7 +16,7 @@ const LandingPage = () => {
   <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 px-4 text-center">
     <h1 className="text-5xl font-bold mb-4 animate-pulse">Python & Generative AI: 15-Day Course</h1>
     <p className="text-2xl mb-2">Instructor-led Live Classes</p>
-    <p className="mb-6">Duration: 15 days (Classes can be extended based on learner's need)</p>
+    <p className="mb-4">Duration: 15 days </p>
     
     {/* Flash Sale Section */}
     <div className="bg-yellow-400 text-black font-bold p-4 rounded-lg mb-6">
@@ -40,7 +40,7 @@ const LandingPage = () => {
       <section className="mb-12 text-center">
     <h2 className="text-3xl font-bold mb-4">About the Instructor - Arul Benjamin Chandru</h2>
     <p className="text-xl text-justify mb-4">
-      As a Senior System Analyst at IBM, I bring over 11 years of rich experience in the tech industry, dedicated to delivering efficient and innovative solutions that meet the complex needs of our clients. Throughout my career, I have honed my expertise in Data Engineering, with a particular focus on leveraging the capabilities of AWS, Python, Java, and Generative AI. This specialization allows me to design and implement robust, scalable data systems that not only drive business success but also enhance operational efficiencies and decision-making processes.
+    As a Senior System Analyst at IBM, I have over 11 years of experience in the tech industry, focused on delivering effective and creative solutions to meet our clients' needs. Over the years, I have developed strong skills in Data Engineering, with a special focus on using AWS, Python, Java, and Generative AI. This expertise helps me build reliable and scalable data systems that support business growth and improve efficiency in operations and decision-making.
     </p>
     <p className="text-xl text-justify mb-4">
       <a 
@@ -55,9 +55,9 @@ const LandingPage = () => {
   </section>
 
   <section className="mb-12 text-center">
-    <h2 className="text-3xl font-bold mb-4">Top-Selling Udemy Courses</h2>
+    <h2 className="text-3xl font-bold mb-4">🔥 Top-Selling Udemy Courses – Yours FREE! 🔥</h2>
     <p className="text-xl text-justify mb-4">
-      I am the author of two top-selling Udemy courses, designed to help learners of all levels master Python and Generative AI.
+      I’m excited to offer you two of my top-selling Udemy courses absolutely <span className="text-green-500 font-bold underline">FREE</span> when you enroll in my Python & Generative AI 15-Day course! These courses are designed to help learners of all levels master Python and Generative AI, and now you can access them at no extra cost!
     </p>
     <div className="flex flex-col items-center space-y-4">
       <a 
@@ -66,7 +66,7 @@ const LandingPage = () => {
         rel="noopener noreferrer"
         className="text-blue-600 hover:underline text-lg"
       >
-        1. Jumpstart Python & Gen AI: Zero to Hero for Beginners
+        🎉 1. Jumpstart Python & Gen AI: Zero to Hero for Beginners 
       </a>
       <a 
         href="https://www.udemy.com/course/python-genai-basics/?referralCode=47F4950D6FADA6C59E08" 
@@ -74,10 +74,11 @@ const LandingPage = () => {
         rel="noopener noreferrer"
         className="text-blue-600 hover:underline text-lg"
       >
-        2. Python & Gen AI Basics: Transition from Java in Just 15 days
+        🎉 2. Python & Gen AI Basics: Transition from Java in Just 15 Days
       </a>
     </div>
-  </section>
+    <p className="text-red-600 font-bold mt-6 text-2xl">💥 Get Both Courses – Completely FREE! 💥</p>
+</section>
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-center">Course Syllabus</h2>
@@ -170,7 +171,7 @@ const LandingPage = () => {
       </main>
 
       <footer className="bg-gray-800 text-white py-8 px-4 text-center">
-        <p>&copy; 2024 Python & Generative AI Course. All rights reserved.</p>
+        <p>&copy; 2024 Arul Benjamin. All rights reserved.</p>
         <div className="mt-4">
           <a 
             href="https://www.linkedin.com/in/arulbenjamin/" 
@@ -179,12 +180,6 @@ const LandingPage = () => {
             className="text-blue-300 hover:underline mr-4"
           >
             Instructor LinkedIn
-          </a>
-          <a 
-            href="#" 
-            className="text-blue-300 hover:underline"
-          >
-            Privacy Policy
           </a>
         </div>
       </footer>
