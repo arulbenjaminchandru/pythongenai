@@ -12,15 +12,22 @@ interface DemoVideoProps {
 }
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 text-gray-800 font-sans">
-      <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 px-4 text-center">
-        <h1 className="text-5xl font-bold mb-4 animate-pulse">Python & Generative AI: 15-Day Course</h1>
-        <p className="text-2xl mb-2">Instructor-led Live Classes</p>
-        <p className="mb-6">Duration: 15 days (Classes can be extended based on learner's need)</p>
-        <div className="mb-8">
-          <span className="text-4xl font-bold line-through text-red-300 mr-4">₹50,000</span>
-          <span className="text-5xl font-bold text-green-300">₹5,000</span>
-        </div>
+<div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 text-gray-800 font-sans">
+  <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 px-4 text-center">
+    <h1 className="text-5xl font-bold mb-4 animate-pulse">Python & Generative AI: 15-Day Course</h1>
+    <p className="text-2xl mb-2">Instructor-led Live Classes</p>
+    <p className="mb-6">Duration: 15 days (Classes can be extended based on learner's need)</p>
+    
+    {/* Flash Sale Section */}
+    <div className="bg-yellow-400 text-black font-bold p-4 rounded-lg mb-6">
+      <span className="text-3xl animate-pulse">🔥 Flash Sale - Limited Time Only! 🔥</span>
+    </div>
+    
+    <div className="mb-8">
+      <span className="text-4xl font-bold line-through text-red-300 mr-4">₹30,000</span>
+      <span className="text-5xl font-bold text-green-300 animate-pulse">₹7,000</span>
+    </div>
+
         <a 
           href="#register"
           className="bg-white text-blue-600 px-8 py-3 rounded-full text-xl font-bold hover:bg-blue-100 transition duration-300 animate-bounce"
@@ -47,6 +54,30 @@ const LandingPage = () => {
     </p>
   </section>
 
+  <section className="mb-12 text-center">
+    <h2 className="text-3xl font-bold mb-4">Top-Selling Udemy Courses</h2>
+    <p className="text-xl text-justify mb-4">
+      I am the author of two top-selling Udemy courses, designed to help learners of all levels master Python and Generative AI.
+    </p>
+    <div className="flex flex-col items-center space-y-4">
+      <a 
+        href="https://www.udemy.com/course/python-genai-from-scratch/?referralCode=9E4435651499D10237CC" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline text-lg"
+      >
+        1. Jumpstart Python & Gen AI: Zero to Hero for Beginners
+      </a>
+      <a 
+        href="https://www.udemy.com/course/python-genai-basics/?referralCode=47F4950D6FADA6C59E08" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline text-lg"
+      >
+        2. Python & Gen AI Basics: Transition from Java in Just 15 days
+      </a>
+    </div>
+  </section>
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-center">Course Syllabus</h2>
@@ -188,7 +219,7 @@ const SyllabusSection : React.FC<SyllabusSectionProps> = ({ title, topics }) => 
 };
 
 const DemoVideo : React.FC<DemoVideoProps> = ({ title, videoId }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
