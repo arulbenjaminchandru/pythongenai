@@ -24,8 +24,8 @@ const LandingPage = () => {
         </div>
 
         <div className="mb-8">
-          <span className="text-4xl font-bold line-through text-red-300 mr-4">₹30,000</span>
-          <span className="text-5xl font-bold text-green-300 animate-pulse">₹7,000</span>
+          <span className="text-4xl font-bold line-through text-red-300 mr-4">₹50,000</span>
+          <span className="text-5xl font-bold text-green-300 animate-pulse">₹20,000</span>
         </div>
 
         <a 
